@@ -3,7 +3,7 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="RedRobin/Tests.cs">
     <Files>
       <File FileName="RedRobin/AppInitializer.cs" Line="33" Column="4" />
-      <File FileName="RedRobin/Tests.cs" Line="42" Column="4" />
+      <File FileName="RedRobin/Tests.cs" Line="65" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,4 +11,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
