@@ -35,6 +35,12 @@ namespace RedRobin
         }
 
         [Test]
+        public void Repl()
+        {
+            app.Repl();
+        }
+
+        [Test]
         public void FirstTest()
         {
             #region Web CheatSheet
