@@ -61,7 +61,7 @@ namespace RedRobin
 
             app.Tap(x => x.Css(".x-list-item-label"));
             Thread.Sleep(2000);
-            app.Screenshot("Tapped on 'Southen Charm' Button");
+            app.Screenshot("Tapped on 'Southern Charm' Button");
 
             Thread.Sleep(2000);
             app.Screenshot("Shows 'Sorry, No Photo Available'");
