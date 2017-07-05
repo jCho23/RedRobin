@@ -24,14 +24,8 @@ namespace RedRobin
         public void BeforeEachTest()
         {
             app = AppInitializer.StartApp(platform);
-            app.Screenshot("App Launched");
-        }
-
-        [Test]
-        public void AppLaunched()
-        {
             app.WaitForElement(x => x.Css("#ext-home-create-a-meal-btn-1"), timeout: TimeSpan.FromSeconds(80));
-            app.Screenshot("First Page");
+            app.Screenshot("First Page Loaded");
         }
 
         [Test]
