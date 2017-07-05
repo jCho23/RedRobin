@@ -56,7 +56,6 @@ namespace RedRobin
             //iOS: app.Query(x => x.WebView().Invoke("request").Invoke("URL").Invoke("absoluteString"))
             #endregion
 
-            Thread.Sleep(15000);
             app.WaitForElement(x => x.Css("#ext-home-create-a-meal-btn-1"), timeout: TimeSpan.FromSeconds(80));
             app.Screenshot("App Launched");
 
